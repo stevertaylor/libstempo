@@ -5,15 +5,15 @@
 
 from __future__ import division, print_function, absolute_import
 
-import math, os
+import math
+import os
 
 import numpy as N
 import scipy.interpolate as interp
-import scipy.constants as sc
 
+from . import eccUtils as eu
 from . import libstempo
 from . import spharmORFbasis as anis
-from . import eccUtils as eu
 
 try:
     import ephem
